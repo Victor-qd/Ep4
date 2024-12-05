@@ -1,0 +1,350 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .menuprincipal {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: black;
+            padding: 10px 20px;
+            position: relative;
+            z-index: 10;
+        }
+
+        img {
+            width: 35%;
+        }
+
+        .navegacion {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+            align-items: center;
+        }
+
+        .navegacion li {
+            margin: 0 15px;
+        }
+
+        .navegacion a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 15px;
+            display: flex;
+            align-items: center;
+            height: 50px;
+        }
+
+        .cardartist {
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 50px 0;
+            /* Ajusta según necesites */
+            width: 100%;
+        }
+
+        .title1 {
+            margin-bottom: 35px;
+            margin-right: -14px;
+            color: white;
+            font-family: "Poppins", sans-serif;
+            font-weight: 200;
+            font-style: normal;
+            text-align: justify;
+        }
+
+        .artistaimagen {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .image-container {
+            position: relative;
+            margin: 20px;
+            width: 27%;
+        }
+
+        .image-container img {
+            width: 100%;
+        }
+
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s;/
+        }
+
+        .image-container:hover .overlay {
+            opacity: 1;
+        }
+
+        .title2 {
+            color: white;
+            margin-top: -550px;
+            text-align: justify; 
+            font-family: "Poppins", sans-serif;
+            font-weight: 200;
+            font-style: normal;
+            text-wrap: 10p;
+        }
+
+        .carta2 {
+            display: flex;
+            align-items: center;
+            background-color: black;
+            padding: 50px;
+            text-align: left;
+            align-items: center;
+        }
+
+        .imagen {
+            width: 110px;
+            height: auto;
+            margin-right: 20px;
+        }
+
+        .subtexto2 {
+
+            text-align: center;
+            text-align: justify;
+            color: white;
+            padding: 100px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 200;
+            font-style: normal;
+        }
+
+        .Audition {
+            background-color: black;
+            padding: 20px 0;
+        }
+        
+        .Audition {
+            background-color: black;
+            padding: 20px 0;
+        }
+        
+        .textoa {
+            text-align: center;
+            color: white;
+            margin-bottom: 50px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 200;
+            font-style: normal
+        }
+        
+        .video-container {
+            display: flex;
+            justify-content: center; 
+            padding: 20px 0; 
+        }
+        
+        
+        .video-card {
+            background-color: black; 
+            border-radius: 10px; 
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); 
+            width: 90%; 
+            max-width: 1200px; 
+            height: auto; 
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+            margin: 5px auto; 
+            padding-top: 10px; 
+        }
+        
+        .video-title {
+            color: white; 
+            margin-bottom: 10px; 
+        }
+        
+        iframe {
+            width: 100%; 
+            height: 600px; 
+            border-radius: 10px; 
+        }
+        
+        .apply-button {
+            background-color: black; 
+            color: white; 
+            border: 2px solid white; 
+            padding: 10px 20px; 
+            border-radius: 5px; 
+            cursor: pointer; 
+            margin-top: 20px; 
+            align-items: center;
+        }
+        
+        .apply-button:hover {
+            background-color: white; 
+            color: black; 
+        }
+        
+        
+        .footer {
+            background-color: white; 
+            color: black;
+            padding: 15px 20px; 
+            margin: 20px auto;
+            border: 1px solid #ccc;
+            width: 80%; 
+            max-width: 600px; 
+            border-radius: 8px; 
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+        }
+        
+        .footer {
+            background-color: #000;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+            position: relative;
+        }
+        
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .footer-text {
+            flex: 1;
+        }
+        
+        .footer-logo {
+            width: 100px;
+        }
+        
+        .footer-links {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .footer-links li {
+            display: inline;
+            margin: 0 10px;
+        }
+        
+
+        
+        .scroll-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: white;
+            border-radius: 50%;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            transition: background-color 0.3s;
+            z-index: 1000; 
+        }
+        
+        .scroll-to-top:hover {
+            background-color: lightgrey;
+        }
+        
+        /* Custom CSS */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.carousel-item img {
+    height: 60vh;
+    object-fit: cover;
+}
+
+.artist-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive CSS */
+@media (max-width: 992px) {
+    .carousel-item img {
+        height: 40vh;
+    }
+
+    .artist-card img {
+        height: 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .carousel-item img {
+        height: 30vh;
+    }
+
+    .artist-card img {
+        height: 120px;
+    }
+
+    footer {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .carousel-item img {
+        height: 25vh;
+    }
+
+    .artist-card img {
+        height: 100px;
+    }
+
+    footer {
+        padding: 15px 0;
+    }
+}

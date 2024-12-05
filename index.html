@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Mi Página Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">DentiHealty</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#artists">Servicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#audition">Consulta</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="mainCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/doctores.jpg" class="d-block w-100" alt="Slide 1">
+            </div>
+            <div class="carousel-item">
+                <img src="img/dentistas2.webp" class="d-block w-100" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+                <img src="img/dentista 3.avif" class="d-block w-100" alt="Slide 3">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#mainCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Inicio</span>
+        </a>
+        <a class="carousel-control-next" href="#mainCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Despues</span>
+        </a>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container text-center">
+            <h2>Servicios</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra mauris eget
+                tortor imperdiet vehicula.</p>
+        </div>
+    </section>
+
+    <!-- Artists Section -->
+    <section id="artists" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Tratamientos</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card artist-card">
+                        <img src="img/consulta1.png" class="card-img-top" alt="Artist 1">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Consulta general</h5>
+                            <p class="card-text">Una consulta general en el consultorio dental es una evaluación
+                                integral de la salud bucal. Durante esta visita, el dentista revisará tus dientes,
+                                encías y boca en busca de caries, inflamaciones, infecciones u otros problemas. Es
+                                posible que se realicen radiografías para tener una visión más detallada de la
+                                estructura dental.
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card artist-card">
+                        <img src="img/servicio primario.webp" class="card-img-top" alt="Artist 2">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Servicios primarios</h5>
+                            <p class="card-text">
+                            <ul>
+
+                                <li>
+                                    Limpieza dental profesional
+                                </li>
+                                <li>
+                                    Exámenes y diagnósticos bucales
+                                </li>
+
+                                <li>
+                                    Tratamiento de caries (obturaciones)
+
+                                </li>
+
+                                <li>
+                                    Extracciones dentales simples
+
+                                </li>
+
+                                <li>
+                                    Aplicación de flúor y selladores
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card artist-card">
+                        <img src="img/servicio secundario.webp" class="card-img-top" alt="Artist 3">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Servicios Secundarios</h5>
+                            <p class="card-text">
+                            <ul>
+
+                                <li>Ortodoncia (brackets y alineadores)</li>
+                                <li>Blanqueamiento dental</li>
+                                <li>Implantes dentales</li>
+                                <li>Diseño de sonrisa</li>
+                                <li>Tratamientos de encías (periodoncia avanzada)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Audition Section -->
+    <section id="audition" class="py-5">
+        <div class="container">
+            <h2 class="text-center">¡Agenda tu cita!</h2>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="name">Nombre</label>
+                        <input type="text" class="form-control" id="name" placeholder="Tu nombre aqui">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="email">Correo</label>
+                        <input type="email" class="form-control" id="email" placeholder="Tu correo aqui">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Tu consulta aqui"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <p class="mb-0">&copy; 2024 Todos los derechos reservados por DentiHealty.</p>
+            <div class="footer-links">
+                <a href="#">Politica de privacidad</a>
+                <a href="#">Termino y servicios.</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
